@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    >
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:textColor="#FFFFFF"
+			android:id="@+id/title"
+			android:layout_margin="10dip"
+			android:textSize="22sp"
+			android:textStyle="bold"
+	/>
+
+	<SeekBar
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/seekbar"
+	/>
+	
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	>
+	
+			<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="play"
+					android:id="@+id/play"
+					android:layout_margin="10dip"
+			/>
+			
+			<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="prev "
+					android:id="@+id/prev"
+					android:layout_margin="10dip"
+			/>
+			
+			<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="next "
+					android:id="@+id/next"
+					android:layout_margin="10dip"
+			/>
+			
+			<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="stop"
+					android:id="@+id/stop"
+					android:layout_margin="10dip"
+			/>
+	
+	</LinearLayout>
+
+</LinearLayout>
