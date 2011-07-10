@@ -1,0 +1,9 @@
+This is how to use it .....................
+
+	AudioPlayerActivity playerActivity = new AudioPlayerActivity(context);
+	
+	playerActivity.add("http://ur1/file1.mp3");
+	playerActivity.add("http://ur2/file2.mp3");
+	
+	playerActivity.start();
+	
